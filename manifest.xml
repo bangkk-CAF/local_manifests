@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Remotes -->
-    <remote name="caf" fetch="https://github.com/bangkk-CAF/" />
-    <remote name="moto-common" fetch="https://github.com/moto-common/" />
-    <remote name="aospa" fetch="https://github.com/AOSPA/" />
-    <remote name="aospa-vendor" fetch="https://git.libremobileos.com/electimon/" />
-    <remote name="clo-la" fetch="https://git.codelinaro.org/clo/la" sync-c="true" sync-tags="false" />
+    <remote name="caf"
+        fetch="https://github.com/bangkk-CAF/" />
+    <remote name="moto-common"
+        fetch="https://github.com/moto-common/" />
+    <remote name="aospa"
+        fetch="https://github.com/AOSPA/" />
+    <remote name="aospa-vendor"
+        fetch="https://github.com/ThankYouMario/" />
+    <!-- CLO -->
+    <remote name="clo-la"
+            fetch="https://git.codelinaro.org/clo/la"
+            sync-c="true"
+            sync-tags="false" />
 
     <!-- Device Tree and Common -->
     <project path="device/motorola/bangkk" name="android_device_motorola_bangkk" remote="caf" revision="14" />
