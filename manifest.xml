@@ -1,46 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="caf" 
-        fetch="https://github.com/bangkk-CAF/" />
-    <remote name="moto-common"
-        fetch="https://github.com/moto-common/" />
-    <remote name="aospa"
-        fetch="https://github.com/AOSPA/" />
-    <remote name="aospa-vendor"
-        fetch="https://git.libremobileos.com/electimon/" />
-    <!-- CLO -->
-    <remote name="clo-la"
-            fetch="https://git.codelinaro.org/clo/la"
-            sync-c="true"
-            sync-tags="false" />
+    <!-- Remotes -->
+    <remote name="caf" fetch="https://github.com/bangkk-CAF/" />
+    <remote name="moto-common" fetch="https://github.com/moto-common/" />
+    <remote name="aospa" fetch="https://github.com/AOSPA/" />
+    <remote name="aospa-vendor" fetch="https://git.libremobileos.com/electimon/" />
+    <remote name="clo-la" fetch="https://git.codelinaro.org/clo/la" sync-c="true" sync-tags="false" />
 
-    <!-- Device-Tree e Device-Common -->
-    <project path="device/motorola/bangkk" name="android_device_motorola_bangkk" 
-        remote="caf" revision="14"  />
-    <project path="device/motorola/common" name="android_device_motorola_common" 
-        remote="caf" revision="14"  />
-    <project path="device/motorola/sm4350-common" name="android_device_motorola_sm4350-common" 
-        remote="caf" revision="14"  />
-    <project path="device/motorola/targets" name="android_device_motorola_targets" 
-        remote="caf" revision="14"  />
-    <project path="device/motorola/sm4350-common-kernel" name=" android_device_motorola_sm4350-common-kernel" 
-        remote="caf" revision="master"  />
-    <project path="hardware/motorola" name="android_hardware_motorola" 
-        remote="caf" revision="master" />
- 
+    <!-- Device Tree and Common -->
+    <project path="device/motorola/bangkk" name="android_device_motorola_bangkk" remote="caf" revision="14" />
+    <project path="device/motorola/common" name="android_device_motorola_common" remote="caf" revision="14" />
+    <project path="device/motorola/sm4350-common" name="android_device_motorola_sm4350-common" remote="caf" revision="14" />
+    <project path="device/motorola/targets" name="android_device_motorola_targets" remote="caf" revision="master" />
+    <project path="device/motorola/sm4350-common-kernel" name="android_device_motorola_sm4350-common-kernel" remote="caf" revision="master" />
+    <project path="hardware/motorola" name="android_hardware_motorola" remote="caf" revision="master" />
 
-    <!-- Vendor-common -->
-    <project path="vendor/motorola/common" name="android_vendor_motorola_common" 
-        remote="caf" revision="14"  />
-    <project path="vendor/motorola/bangkk" name="android_vendor_motorola_bangkk" 
-        remote="caf" revision="14"  />
-    <project path="vendor/motorola/sm4350-common" name="android__vendor_motorola_sm4350-common" 
-        remote="caf" revision="14"  />
+    <!-- Vendor Common -->
+    <project path="vendor/motorola/common" name="android_vendor_motorola_common" remote="caf" revision="14" />
+    <project path="vendor/motorola/bangkk" name="android_vendor_motorola_bangkk" remote="caf" revision="14" />
+    <project path="vendor/motorola/sm4350-common" name="android_vendor_motorola_sm4350-common" remote="caf" revision="14" />
 
-    <!-- Kernel tree -->
-    <project path="kernel/motorola/msm-5.4" name="kernel_motorola_msm-5.4" 
-        remote="caf" revision="a14"  />
-     
+    <!-- Kernel Tree -->
+    <project path="kernel/motorola/msm-5.4" name="kernel_motorola_msm-5.4" remote="caf" revision="a14" />     
     <!-- QCOM Common -->
     <project path="device/qcom/common" name="android_device_qcom_common"
         remote="aospa" revision="uvite" />
@@ -131,8 +112,3 @@
     <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="platform_prebuilts_clang_host_linux-x86_clang-r383902"
         remote="moto-common" revision="master" />
 </manifest>
- 
- 
-    
-    
-  
