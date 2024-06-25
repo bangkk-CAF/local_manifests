@@ -1,0 +1,6 @@
+just run this command before doing 'repo sync'
+
+```bash
+python3 .repo/local_manifests/bangkk.py  .repo/manifests/default.xml .repo/manifests/snippets/* .repo/local_manifests .repo/local_manifests/a-remove.xml
+```
+note: this only works for basic roms like 'LineageOS or aosp', if you want to make some CAF ROM or something like that you will have to make modifications.
