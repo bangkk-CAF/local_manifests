@@ -15,21 +15,31 @@
             sync-tags="false" />
 
     <!-- Device-Tree e Device-Common -->
-    <project path="device/motorola/bangkk" name="android_device_motorola_bangkk" remote="caf" revision="14"  />
-    <project path="device/motorola/common" name="android_device_motorola_common" remote="caf" revision="14"  />
-    <project path="device/motorola/sm4350-common" name="android_device_motorola_sm4350-common" remote="caf" revision="14"  />
-    <project path="device/motorola/targets" name="android_device_motorola_targets" remote="caf" revision="14"  />
-    <project path="device/motorola/sm4350-common-kernel" name=" android_device_motorola_sm4350-common-kernel" remote="caf" revision="master"  />
-    <project path="hardware/motorola" name="android_hardware_motorola" remote="caf" revision="master" />
+    <project path="device/motorola/bangkk" name="android_device_motorola_bangkk" 
+        remote="caf" revision="14"  />
+    <project path="device/motorola/common" name="android_device_motorola_common" 
+        remote="caf" revision="14"  />
+    <project path="device/motorola/sm4350-common" name="android_device_motorola_sm4350-common" 
+        remote="caf" revision="14"  />
+    <project path="device/motorola/targets" name="android_device_motorola_targets" 
+        remote="caf" revision="14"  />
+    <project path="device/motorola/sm4350-common-kernel" name=" android_device_motorola_sm4350-common-kernel" 
+        remote="caf" revision="master"  />
+    <project path="hardware/motorola" name="android_hardware_motorola" 
+        remote="caf" revision="master" />
  
 
     <!-- Vendor-common -->
-    <project path="vendor/motorola/common" name="android_vendor_motorola_common" remote="caf" revision="14"  />
-    <project path="vendor/motorola/bangkk" name="android_vendor_motorola_bangkk" remote="caf" revision="14"  />
-    <project path="vendor/motorola/sm4350-common" name="android__vendor_motorola_sm4350-common" remote="caf" revision="14"  />
+    <project path="vendor/motorola/common" name="android_vendor_motorola_common" 
+        remote="caf" revision="14"  />
+    <project path="vendor/motorola/bangkk" name="android_vendor_motorola_bangkk" 
+        remote="caf" revision="14"  />
+    <project path="vendor/motorola/sm4350-common" name="android__vendor_motorola_sm4350-common" 
+        remote="caf" revision="14"  />
 
     <!-- Kernel tree -->
-    <project path="kernel/motorola/msm-5.4" name="kernel_motorola_msm-5.4" remote="caf" revision="a14"  />
+    <project path="kernel/motorola/msm-5.4" name="kernel_motorola_msm-5.4" 
+        remote="caf" revision="a14"  />
      
     <!-- QCOM Common -->
     <project path="device/qcom/common" name="android_device_qcom_common"
